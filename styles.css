@@ -1,0 +1,253 @@
+
+.overblock{
+		text-align: justify;
+		tab-size: 4;
+		line-height: inherit;
+		font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+		color: rgba(41,41,41,var(--tw-text-opacity));
+		border-width: 0;
+		border-style: solid;
+		border-color: currentColor;
+		box-sizing: border-box;
+		margin-left: auto;
+		margin-right: auto;
+	
+		margin-top: 1.5rem;
+		max-width: 48rem;
+}
+
+
+.text-center{
+	text-align: center;
+font-size: 2.4rem;
+line-height: 1.25;  
+text-transform: capitalize;
+font-weight: 700;
+		margin: 0;
+		box-sizing: border-box;
+}
+
+.hovertextprimary{
+
+		tab-size: 4;
+		-webkit-text-size-adjust: 100%;
+		line-height: inherit;
+		--tw-text-opacity: 1;
+		text-align: center;
+		font-family: "Montserrat","Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+		font-size: .875rem;
+		font-weight: 700;
+		border-width: 0;
+		border-style: solid;
+		border-color: currentColor;
+		box-sizing: border-box;
+		color: inherit;
+		text-decoration: inherit;
+}
+
+.hovertextprimary:hover{
+	color: red;
+
+}
+
+.neely{
+		tab-size: 4;
+		-webkit-text-size-adjust: 100%;
+		color: rgba(41,41,41,var(--tw-text-opacity));
+		border-width: 0;
+		border-style: solid;  
+		border-color: currentColor;
+		box-sizing: border-box;
+		margin-top: 1.5rem;
+		text-align: center;
+		font-family: "Montserrat","Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+		font-size: .875rem;
+		font-weight: 700;
+}
+
+.italicmt10 {
+text-align: start;
+			margin-top: 2.5rem;
+			 tab-size: 4;
+		line-height: inherit;
+		
+		color: rgba(41,41,41,var(--tw-text-opacity));
+		border-width: 0;
+		border-style: solid;
+		border-color: currentColor;
+		box-sizing: border-box;
+		font-size: 1.125rem;
+		font-style: italic;
+}
+
+.blocktext p{
+		
+	font-style: italic;
+
+
+
+}
+.image1{
+		margin-top: 2.5rem; 
+		height: auto;
+		width: auto;
+		display: block;
+		vertical-align: middle;
+		
+}
+p{
+	text-align: start;
+		line-height: 1.625;
+		padding-top: 2rem;
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+}
+
+.mt14{
+	color: red;
+	 box-sizing: border-box;
+		margin-left: auto;
+		margin-right: auto;
+ 
+}
+
+span{
+	color: red;
+}
+
+.main_link{
+
+	text-decoration: underline ;
+	text-decoration-color: red;
+	color:black;
+}
+.main_link:hover{
+
+	color: red;
+
+}
+
+#breadcrumbs {
+	text-align: center;
+	color: red;
+	
+}
+
+.toplink{
+text-decoration: none;
+color: red; 
+
+}
+	
+#toc{
+	 	font-family: ;
+	  font-size: 1rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+		color: black;
+
+
+}
+#toc a{
+    color: inherit;
+	line-height: 1.625;
+  padding-left: 0.5rem;
+  padding-top: 0.75rem;
+	text-decoration: underline ;
+	text-decoration-color: red;
+
+}
+
+#toc a:hover
+{
+color: red;
+}
+
+#toc li{
+
+		line-height: 1.625;
+    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    text-transform: uppercase;
+}
+
+/*три фотки*/
+
+.block1{
+	height: 300px;
+	width: 900px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.fot{
+
+	margin-right: auto;
+	margin-left: auto;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border:  15px  silver;
+	border-style: double ;
+	object-fit: cover;
+	
+	
+	
+}
+
+.fot2{
+		margin-right: auto;
+	margin-left: auto;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border:  15px  silver;
+	object-fit: cover;
+	border-style: double ;
+	
+}
+.fot3{
+
+	
+	margin-right: auto;
+	margin-left: auto;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border:  15px  silver;
+	border-style: double ;
+	object-fit: cover;
+
+	}
+
+
+.petr{
+
+	width: 90px;
+	  height: 90px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	  position: sticky;
+	top: 40px;
+	float: right;
+	margin-right: -110px;
+	object-fit: cover;
+
+}
+
+.photo{
+
+	 width: auto;
+  height: 100%;
+  margin: 0 auto
+}
